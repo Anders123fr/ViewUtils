@@ -35,11 +35,6 @@
 
 @interface UIView (ViewUtils)
 
-//nib loading
-
-+ (id)instanceWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)bundleOrNil owner:(id)owner;
-- (void)loadContentsWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)bundleOrNil;
-
 //hierarchy
 
 - (UIView *)viewMatchingPredicate:(NSPredicate *)predicate;
